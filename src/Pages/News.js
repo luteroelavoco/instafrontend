@@ -20,8 +20,10 @@ class News extends Component {
         data.append('place',this.state.place);
         data.append('description',this.state.description);
         data.append('hashtags',this.state.hashtags);
+        console.log(this.state.image);
         await api.post("posts",data);
         this.props.history.push("/");
+        
     }
 
     handleChange = e =>{
