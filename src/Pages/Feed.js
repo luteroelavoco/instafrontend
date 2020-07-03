@@ -31,6 +31,7 @@ class Feed extends Component {
                 )
             })
         })
+        
     }
     handleLike = id =>{
         api.post(`posts/${id}/like`);

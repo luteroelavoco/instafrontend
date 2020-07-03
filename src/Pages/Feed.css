@@ -14,7 +14,7 @@ section#post-list article {
 section#post-list article header{
     padding: 20px;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
 }
 
