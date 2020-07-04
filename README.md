@@ -65,7 +65,7 @@ yarn deploy
 
 ![](assets/imagem3.PNG)
 
-![](assets/imagem3.PNG)
+![](assets/imagem4.PNG)
 
 ## Meta
 
