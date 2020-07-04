@@ -69,7 +69,9 @@ yarn deploy
 
 ## Meta
 
-Author -  [Lutero Elavoco](https://www.linkedin.com/in/l%C3%BAtero-elavoco-5951b619b/) - luteroelavoco90@gmail.com
+Author - Rocketseat
+
+programmer -  [Lutero Elavoco](https://www.linkedin.com/in/l%C3%BAtero-elavoco-5951b619b/) - luteroelavoco90@gmail.com
 
 https://cientista1.github.io/instafrontend/#/
 
