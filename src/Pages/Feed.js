@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./Feed.css";
-import api from "../services/api";
+import api,{url, url_image} from "../services/api";
 import more from "../assets/more.svg";
 import like from "../assets/like.svg";
 import comment from "../assets/comment.svg";
@@ -20,7 +20,7 @@ class Feed extends Component {
     }
 
     RegisterToSocket =  () =>{
-        const socket = io('http://localhost:3333')
+        const socket = io(url)
         socket.on('post', newPost=>{
             this.setState({feed : [newPost, ... this.state.feed]});
         })
@@ -50,7 +50,7 @@ class Feed extends Component {
                             </div>
                             <img src={more} alt="Mais" />
                         </header>
-                        <img src={`http://localhost:3333/files/${post.image}`} alt="imagem" />
+                        <img src={`${url_image}${post.image}`} alt="imagem" />
                         <footer>
                             <div className="actions">
                                 <button type="button" onClick={()=>this.handleLike(post._id)} >
